@@ -1,0 +1,35 @@
+# Bitrix GUID Tool — local input and generated exports
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+~$*
+
+# Runtime and temporary data
+/tmp/
+/temp/
+/cache/
+/uploads/
+/reports/
+/runtime/
+/sessions/
+*.tmp
+*.temp
+*.bak
+*.log
+
+# Local secrets and settings
+.env
+.env.*
+!.env.example
+config.local.php
+*.secret.php
+
+# Editor and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local dependencies (only if installed separately)
+/node_modules/
